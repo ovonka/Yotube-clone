@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 56px;
+        padding: 0 16px;
+        
+    }
+    .navbar .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 8.3px;
+    }
+    .logo img {
+        width: 100px ;
+        margin-left: 10px;
+        
+        
+    }
+    .navbar .searchbar {
+        display: flex;
+        align-items: center;
+        height: 32px;
+
+    }
+    .search{
+        display: flex;
+        border: 1px solid #cccccc;
+        width: 600px;
+        height: 100%;
+        margin-right: 10px;
+       
+        
+    }
+    .search input{
+        border: none;
+        width: 90%;
+        padding: 0 10px;
+
+    
+
+    }
+    .search button{
+        border: none;
+        border-left: 1px solid #cccccc;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .search button i {
+         margin: 0;
+         padding: 2px;
+
+
+     }
+    
+     .material-icons{
+         color: #606060;
+         margin-right: 10px;
+
+
+     }
+     .mainbody{
+         display: flex;
+         height: calc(100vh - 56px);
+         overflow: hidden;
+     }
+    .categories {
+        width: 240px;
+        height: 100%;
+        background: white;
+        overflow-y: scroll;
+
+
+    }
+    .category-section{
+        border-bottom: 1px solid #e5e5e5;
+        margin-top: 10px;
+
+    
+    }
+    .category-section .category:last-child{
+
+        margin-bottom: 10px;
+
+    
+    }
+    .category {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding: 0 24px;
+        font-size: 14px;
+        font-weight: 400 ;
+        cursor: pointer;
+    }
+    .category:hover {
+        background: #f9f9f9;
+
+
+    }
+    .active{
+        background: #e5e5e5;
+        font-weight: 500 ;
+    }
+    .active:hover{
+        background-color: #d0d0d0;
+
+    }
+    .active i {
+        color: black;
+
+
+    }
+    .category i {
+        margin-right: 24px;
+
+
+    }
+    .category-heading{
+        padding: 8px 24px;
+        color: #606060;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .category img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin-right: 24px;
+    }
+    .footer-categories{
+        padding: 25px;
+
+
+    }
+    .footer-section{
+        margin-bottom: 10px;
+    }
+    .footer-section span{
+        font-size: 13px;
+        font-weight: 500;
+        margin-right: 5px;
+        color: #606060;
+        cursor: pointer;
+        
+        
+    }
+    .copyright{
+        color: #606060;
+        font-weight: 400;
+        margin-bottom: 20px;
+       
+        
+
+    }
+    
+    .videos{
+       
+        width: calc(100vw - 240px);
+        height: 100%;
+        background: #f9f9f9;
+        border-top: 0.5px solid #e5e5e5;
+        overflow-y: scroll ;
+    }
+    .video-grid{
+       display: flex;
+       flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .video{
+         width: calc(25% - 12px);
+         margin-right: 12px;
+         margin-bottom: 40px;
+         cursor: pointer;
+    }
+    .video .thumbnail img {
+        width: 100%;
+    }
+    .video .details{
+        display: flex;
+        margin-top: 5px;
+        width: 90%;
+}
+.video .profile{
+    margin-right: 12px;
+}
+    .video .profile img {
+        border-radius: 50%;
+        widows: 36px;
+        height: 36px;
+
+    }
+    
+.video .video-details p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+.video .posted-by{
+    font-size: 14px;
+    font-weight: 400;
+    color: #949494;
+}
+
+
+ 
+
+    
