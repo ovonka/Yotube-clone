@@ -8,7 +8,6 @@
 * { 
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
     }
     .navbar{
@@ -63,7 +62,7 @@
     
      .material-icons{
          color: #606060;
-         margin-right: 10px;
+         margin-right: 15px;
      }
      /* MAINBODY */
      .mainbody{

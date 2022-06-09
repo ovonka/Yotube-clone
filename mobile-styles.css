@@ -1,18 +1,31 @@
 @media (max-width: 480px) {
  
-    /* Nav bar */
-    
+    /* Navbar */
+    .navbar{
+        height: 25px;
+        padding: 4px;
+    } 
     .logo img {
-        width: 30px;
+        width: 40px;
         margin: 0; 
         font-size: 16px;
+        margin-right: 10px;
     }
     .search{
         display: flex;
-        border: 1px solid #cccccc;
-        width: 180px; 
-     
+        border: 0.5px solid #efeded;
+        width: 185px;  
+        height: 18px;
     }
+    .search input{
+        font-size: 6px;
+        padding: 0 4px; 
+    }
+    .search button{
+        border: 0.2px solid #efeded;
+        width: 13%;
+     }
+    
     .navigation-icons{
         display: flex;
     }
@@ -20,14 +33,17 @@
     .material-icons{
         font-size: 10px;
     }
-    /* CATEGORY */
+    /* MAINBODY */
+    .mainbody{  
+        height: calc(100vh - 25px); 
+    }
+    /* CATEGORY SECTION*/
     .category .material-icons {
-        margin: 0;
         margin: 0;
         font-size: 10px;
     }
     .categories {
-        width: 72px;
+        width: 35px;
         overflow: hidden;
     }
     .responsive ~ .category-section{
@@ -36,18 +52,16 @@
     .after ~ .category {
         display: none;
     }
-    .footer-categories{
-        display: none;
-    }
     .category {
         display: flex;
         flex-direction: column; 
+        height: 35px;
         font-size: 5px;
         font-weight: 400;
         padding: 0; 
     }
     .active{
-      background: none; 
+        background: none; 
     }
     .category-section{
         border-bottom: 0px;
@@ -56,25 +70,35 @@
     .category-section .category:last-child{
         margin: 0;
     }
+    /* FOOTER */
+    .footer-categories{
+        display: none;
+    }
     /* VIDEOS */
     .videos{  
-        width: calc(100vw - 72px);   
+        width: calc(100vw - 35px); 
     }
     .video-grid{
-        padding: 15px 0 15px 15px;
+        padding: 10px 0 15px 10px;
     }
     .video{
         width: calc(33% - 9px);
-        margin-right: 9px; 
+        margin: 0 9px 20px 0;   
+   }
+   .video .details{
+       margin-top: 0;
+   }
+   .video .profile{
+       margin-right: 5px;
+   }
+   .video .video-details p{
+        font-size: 5px;
+        line-height: 8px;
+   }
+   .video .posted-by{
+    font-size: 5px;
    }
    .video .profile img {
     width: 14px;
-}
-.video .details{
-   font-size: 10px;
-}
-
- 
-    
-    
+   }  
 }
