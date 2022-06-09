@@ -8,6 +8,7 @@
 * { 
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
     }
     .navbar{
@@ -25,9 +26,7 @@
     }
     .logo img {
         width: 100px ;
-        margin-left: 10px;
-        
-        
+        margin-left: 10px; 
     }
     .navbar .searchbar {
         display: flex;
@@ -40,17 +39,14 @@
         border: 1px solid #cccccc;
         width: 600px;
         height: 100%;
-        margin-right: 10px;
-       
+        margin-right: 10px;   
         
     }
     .search input{
         border: none;
+        outline: none;
         width: 90%;
         padding: 0 10px;
-
-    
-
     }
     .search button{
         border: none;
@@ -63,16 +59,13 @@
      .search button i {
          margin: 0;
          padding: 2px;
-
-
      }
     
      .material-icons{
          color: #606060;
          margin-right: 10px;
-
-
      }
+     /* MAINBODY */
      .mainbody{
          display: flex;
          height: calc(100vh - 56px);
@@ -83,20 +76,13 @@
         height: 100%;
         background: white;
         overflow-y: scroll;
-
-
     }
     .category-section{
         border-bottom: 1px solid #e5e5e5;
-        margin-top: 10px;
-
-    
+        margin-top: 10px; 
     }
     .category-section .category:last-child{
-
         margin-bottom: 10px;
-
-    
     }
     .category {
         width: 100%;
@@ -105,13 +91,11 @@
         height: 40px;
         padding: 0 24px;
         font-size: 14px;
-        font-weight: 400 ;
+        font-weight: 400;
         cursor: pointer;
     }
     .category:hover {
         background: #f9f9f9;
-
-
     }
     .active{
         background: #e5e5e5;
@@ -128,8 +112,6 @@
     }
     .category i {
         margin-right: 24px;
-
-
     }
     .category-heading{
         padding: 8px 24px;
@@ -156,21 +138,16 @@
         font-weight: 500;
         margin-right: 5px;
         color: #606060;
-        cursor: pointer;
-        
-        
+        cursor: pointer;      
     }
     .copyright{
         color: #606060;
         font-weight: 400;
         margin-bottom: 20px;
-       
-        
-
     }
+    /* VIDEOS */
     
-    .videos{
-       
+    .videos{  
         width: calc(100vw - 240px);
         height: 100%;
         background: #f9f9f9;
@@ -200,11 +177,9 @@
 .video .profile{
     margin-right: 12px;
 }
-    .video .profile img {
+.video .profile img {
         border-radius: 50%;
-        widows: 36px;
-        height: 36px;
-
+        width: 36px;
     }
     
 .video .video-details p{
