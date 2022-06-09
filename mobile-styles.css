@@ -28,9 +28,9 @@
     
     .navigation-icons{
         display: flex;
-    }
-    
+    } 
     .material-icons{
+        margin-right: 10px;
         font-size: 10px;
     }
     /* MAINBODY */
