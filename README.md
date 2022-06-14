@@ -9,9 +9,8 @@
 ### Table of Contents
 
 - [Description](#description)
-- [How To Use](#how-to-view)
-- [References](#references)
-- [Author Info](#author-info)
+- [How To View](#how-to-view)
+- [Developer Info](#developer-info)
 
 ---
 
@@ -19,7 +18,7 @@
 
 This is my YouTube user interface clone , I used HTML and CSS to execute it. It is also mobile responsive. It demonstrates my skills in both languages mentioned above.
 
-#### Languages Used
+#### Language(s) Used:
 
 - HTML
 - CSS
@@ -30,9 +29,7 @@ This is my YouTube user interface clone , I used HTML and CSS to execute it. It 
 
 ## How To View
 
-```html
-<a href="https://youtube-nka-ui-clone.netlify.app/">Youtube Clone </a>
-```
+- User Interface - [Youtube Clone](https://youtube-nka-ui-clone.netlify.app/)
 
 [Back To The Top](#youtube-clone)
 
